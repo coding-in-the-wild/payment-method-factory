@@ -1,0 +1,28 @@
+{
+  "name": "payment-method-factory",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "author": {
+    "name": "TehShrike",
+    "email": "me@JoshDuff.com",
+    "url": "http://joshduff.com"
+  },
+  "description": "PAAAAAAYMENT FACTORY",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coding-in-the-wild/payment-method-factory.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "devDependencies": {
+    "tap": "~0.4.4",
+    "payment-method-mock": "~0.0.0"
+  },
+  "dependencies": {
+
+  }
+}
