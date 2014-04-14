@@ -1,5 +1,5 @@
 var test = require('tap').test
-var Factory = require('../index.js')
+var Factory = require('payment-method-factory')
 
 test('Has an add function', function(t) {
 	t.equal(typeof Factory, 'function', 'module returns a function')
